@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user-service" />
+        <module name="cloud-config-server" />
+        <module name="department-service" />
+        <module name="cloud-gateway" />
+        <module name="service-registry" />
+        <module name="hystrix-dashboard" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-config-server" target="1.5" />
+      <module name="cloud-gateway" target="1.5" />
+      <module name="department-service" target="1.5" />
+      <module name="hystrix-dashboard" target="1.5" />
+      <module name="service-registry" target="1.5" />
+      <module name="user-service" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

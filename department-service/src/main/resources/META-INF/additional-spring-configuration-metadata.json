@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "eureka.client.instance",
+      "type": "java.lang.String",
+      "description": "Description for eureka.client.instance."
+    },
+    {
+      "name": "eureka.instance",
+      "type": "java.lang.String",
+      "description": "Description for eureka.instance."
+    },
+    {
+      "name": "eureka.instance",
+      "type": "java.lang.String",
+      "description": "Description for eureka.instance."
+    },
+    {
+      "name": "eureka.instance",
+      "type": "java.lang.String",
+      "description": "Description for eureka.instance."
+    }
+  ] }
